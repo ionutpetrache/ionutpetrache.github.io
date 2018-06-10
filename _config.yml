@@ -16,6 +16,6 @@ gplus_username:  ionpetrache
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-120550008-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
