@@ -10,9 +10,12 @@ username: Ion Petrache
 user_description: Hi there,</br> I am Ion, a software engineer with focus on testing and code quality.</br> I help teams and organisations with implementation of testing automation strategies for their products.
 user_title: Test Automation Engineer
 email: ionpetrache@gmail.com
-twitter_username: ionpetrache
-github_username:  ionutpetrache
-gplus_username:  ionpetrache
+twitter_link: https://twitter.com/ionpetrache
+github_link:  https://github.com/ionutpetrache
+linkedin_link:  https://www.linkedin.com/in/ionpetrache
+stackoverflow_link: https://stackoverflow.com/users/6434628/ionut
+blog_link: https://automationengineeringblog.wordpress.com
+
 
 # Google-analytics
 google-analytics:
