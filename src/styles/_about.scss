@@ -1,33 +1,45 @@
 #about {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 960px;
-  @media only screen and (min-width: $cut) {
-    width: 80%;
-  }
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    @media only screen and (min-width: $cut) {
+        width: 80%;
+    }
 }
 
 .tech {
-  margin: 10px;
+    margin: 10px;
 }
 
 .user {
-  text-align: center;
-  font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  p {
-    font-size: 16px;
-  }
-  @media only screen and (min-width: $cut) {
-    flex-wrap: nowrap;
-    font-size: 75px;
-  }
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    p {
+        font-size: 16px;
+    }
+    @media only screen and (max-width: 415px) {
+        flex-wrap: nowrap;
+        font-size: 75px;
+    }
+    @media only screen and (min-width: 415px) and (max-width: 1024px) {
+        flex-wrap: nowrap;
+        font-size: 55px;
+    }
+    @media only screen and (min-width: 1024px) {
+        flex-wrap: nowrap;
+        font-size: 75px;
+    }
 }
 
 .user-details {
-  text-align: center;
-  margin: 5px auto;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.user-intro {
+    font-weight: 600;
 }
