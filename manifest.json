@@ -1,0 +1,9 @@
+{
+    "name": "Ion Petrache portofolio",
+    "short_name": "Portofolio",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#555"
+}
